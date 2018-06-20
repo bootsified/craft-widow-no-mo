@@ -2,7 +2,7 @@
     "name": "bootsified/craft-widow-no-mo",
     "description": "Preventz 'widows' in ur outputz.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",

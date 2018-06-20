@@ -13,6 +13,7 @@ namespace bootsified\craftwidownomo\twigextensions;
 use bootsified\craftwidownomo\Craftwidownomo;
 
 use Craft;
+use craft\helpers\Template;
 
 /**
  * Twig can be extended in many ways; you can add extra tags, filters, tests, operators,
@@ -43,7 +44,7 @@ class CraftwidownomoTwigExtension extends \Twig_Extension
     /**
      * Returns an array of Twig filters, used in Twig templates via:
      *
-     *      {{ 'a string in your template' | nomowidow }}
+     *      {{ 'a string in your template' | widownomo }}
      *
      * @return array
      */
@@ -57,7 +58,7 @@ class CraftwidownomoTwigExtension extends \Twig_Extension
     /**
      * Returns an array of Twig functions, used in Twig templates via:
      *
-     *      {% set this = nomowidow('a string in your template') %}
+     *      {% set this = widownomo('a string in your template') %}
      *
     * @return array
      */
@@ -92,6 +93,6 @@ class CraftwidownomoTwigExtension extends \Twig_Extension
 			$string = preg_replace($regex, '$1&nbsp;$2', $string);
 		}
 
-		return $outputRaw ? TemplateHelper::getRaw($string) : $string;
+		return $outputRaw ? Template::raw($string) : $string;
     }
 }
