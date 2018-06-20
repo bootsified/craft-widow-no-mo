@@ -1,0 +1,40 @@
+{
+    "name": "bootsified/craft-widow-no-mo",
+    "description": "Preventz 'widows' in ur outputz.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft-widow-no-mo"
+    ],
+    "support": {
+        "docs": "https://github.com/bootsified/craft-widow-no-mo/blob/master/README.md",
+        "issues": "https://github.com/bootsified/craft-widow-no-mo/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boots",
+            "homepage": "http://boots.media"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "bootsified\\craftwidownomo\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "craft-widow-no-mo",
+        "handle": "craft-widow-no-mo",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/bootsified/craft-widow-no-mo/master/CHANGELOG.md",
+        "class": "bootsified\\craftwidownomo\\Craftwidownomo"
+    }
+}
