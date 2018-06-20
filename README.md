@@ -22,19 +22,19 @@ To install the plugin, follow these instructions.
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for craft-widow-no-mo.
 
-## craft-widow-no-mo Overview
+## Widow No Mo Overview
 
 -Insert text here-
 
-## Configuring craft-widow-no-mo
+## Configuring Widow No Mo
 
 -Insert text here-
 
-## Using craft-widow-no-mo
+## Using Widow No Mo
 
 -Insert text here-
 
-## craft-widow-no-mo Roadmap
+## Widow No Mo Roadmap
 
 Some things to do, and ideas for potential features:
 
